@@ -1,0 +1,9 @@
+body {
+    max-width: 1700px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+
+}
