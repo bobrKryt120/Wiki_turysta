@@ -6,17 +6,26 @@ body {
 
 header {
     display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 2000px;
+    height: auto;
     background-color: #008D10;
-    padding: 10px;
+}
+
+header img {
+    min-width: 50px;
+    min-height: 50px;
+    margin: 10px 0px 10px 10px;
+    margin-right: auto;
 }
 
 header h1 {
-    text-align: center;
-}
-
-main {
-
+    color: black;
+    font-size: 40px;
+    width; 249px;
+    height: 50px;
+    margin: 10px auto 10px 0px;
 }
 
 .zah {
@@ -37,25 +46,23 @@ h2 {
 
 section {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: center;
     border: 3px solid black;
     border-radius: 30px;
     padding: 25px;
-    margin: 0px 140px 0px 140px;
-    max-width: 1720px;
-    min-width: 810px;
-    height: 530;
+    margin: 0px auto 0px auto;
+    max-width: 810px;
+    height: auto;
 }
 
 ul {
-    margin-left: 67px;
     margin-right: 65px;
 }
 
 li a {
     font-size: 20px;
     color: #000;
-    text-decoration: none;
 }
 
 li a:last-child {
@@ -65,3 +72,34 @@ li a:last-child {
 li {
     margin-bottom: 76px;
 }
+
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+    background: #004f0c;
+    padding: 4px;
+    margin-top: 40px;
+}
+
+footer img {
+    width: 92px;
+    height: 61px;
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.tyt {
+    color: #0af;
+    text-decoration: none;
+}
+
+.znak {
+    color: #0083c5;
