@@ -121,8 +121,10 @@ footer a {
 
 .tyt {
     color: white;
+    border-bottom: 2px solid white;
 }
 
 .tyt:hover {
     color: #0af;
+    border-bottom: 2px solid #0af;
 }
