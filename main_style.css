@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     max-width: 2000px;
+    height: auto;
     font-family: sans-serif;
 }
 
@@ -9,8 +10,13 @@ header {
     flex-wrap: nowrap;
     align-items: center;
     max-width: 2000px;
+    width: 100%;
     height: auto;
     background-color: #008D10;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
 }
 
 header img {
@@ -26,6 +32,12 @@ header h1 {
     width; 249px;
     height: 50px;
     margin: 10px auto 10px 0px;
+}
+
+main {
+    position: relative;
+    top: 70px;
+    z-index: 0;
 }
 
 .wik {
@@ -69,6 +81,11 @@ li a {
     color: #000;
 }
 
+li a:hover {
+    font-size: 25px;
+    color: green;
+}
+
 li a:last-child {
     margin-bottom: opx;
 }
@@ -83,8 +100,10 @@ footer {
     justify-content: start;
     align-items: center;
     background: #004f0c;
+    z-index: 0;
     padding: 4px;
-    margin-top: 40px;
+    position: relative;
+    top: 100px;
 }
 
 footer img {
@@ -101,10 +120,9 @@ footer a {
 }
 
 .tyt {
-    color: #0af;
-    text-decoration: none;
+    color: white;
 }
 
-.znak {
-    color: #0083c5;
+.tyt:hover {
+    color: #0af;
 }
